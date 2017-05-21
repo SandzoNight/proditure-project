@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+        <link rel="stylesheet" type="text/css" href="src/css/materialize.css" media="screen,projection">
+        <link rel="stylesheet" type="text/css" href="src/css/my-materialize-theme.css">
+        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Prompt:300" rel="stylesheet">
+        <title>Proditure</title>
+    </head>
+    <body>
+        <nav role="navigation">
+            <div class="nav-wrapper container">
+                <a href="#!" class="brand-logo">Proditure</a>
+                <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="material-icons">menu</i></a>
+                <!-- navbar ที่จะโชว์ในอุปกรณ์ขนาดกลาง ขึ้นไป -->
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#">ห้องนั่งเล่น</a></li>
+                    <li><a href="#">ห้องนอน</a></li>
+                    <li><a href="#">ห้องครัว</a></li>
+                    <li><a href="#">ห้องน้ำ</a></li>
+                </ul>
+                <!-- navbar ที่จะโชว์ในอุปกรณ์ขนาดเล็ก เช่นมือถือ -->
+                <ul class="side-nav" id="mobile-nav">
+                    <li><a href="#">ห้องนั่งเล่น</a></li>
+                    <li><a href="#">ห้องนอน</a></li>
+                    <li><a href="#">ห้องครัว</a></li>
+                    <li><a href="#">ห้องน้ำ</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div>
+            <header>
+                <div class="parallax-container">
+                    <div class="carousel carousel-slider center" style="height:300px;">
+                        <div class="carousel-item white-text" href="#one!">
+                            <h1>ตกแต่งตามสไตล์</h1>
+                            <p class="white-text">This is your first panel</p>
+                        </div>
+                        <div class="carousel-item white-text" href="#two!">
+                            <h2>Second Panel</h2>
+                            <p class="white-text">This is your second panel</p>
+                        </div>
+                    </div>
+                    <div class="parallax"><img src="src/img/pallarax_bg_1.jpg"></div>
+                </div>
+            </header>
+            <content>
+
+            </content>
+            
+        </div>
+        
+        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="src/js/materialize.js"></script>
+        <script>
+            
+            $( document ).ready(function(){
+                $(".button-collapse").sideNav();
+                $('.parallax').parallax();
+                $('.carousel.carousel-slider').carousel({fullWidth: true});
+            })
+        </script>
+    </body>
+</html>

@@ -1,0 +1,12 @@
+body{
+  font-family: 'Prompt';
+}
+header > .parallax-container {
+  height: 400px;
+}
+
+
+
+nav{
+  background-color: #c0b673;
+}
