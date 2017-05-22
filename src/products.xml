@@ -1,0 +1,15 @@
+<product>
+    <item>
+        <name>a</name>
+        <desc>aa</desc>
+        <price>12</price>
+        <img1>aaa</img1>
+    </item>
+    <item>
+        <name>b</name>
+        <desc>bb</desc>
+        <price>11</price>
+        <img1>bbb1</img1>
+        <img2>bbb2</img2>
+    </item>
+</product>

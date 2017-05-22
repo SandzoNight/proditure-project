@@ -1,10 +1,18 @@
 body{
   font-family: 'Prompt';
 }
-header > .parallax-container {
-  height: 400px;
+header{
+  margin-bottom: 20px;
 }
-
+header > .parallax-container {
+  height: 350px;
+}
+#parallax-index-1 > .parallax-container{
+  height: 350px !important;
+}
+.carousel-item > p {
+  font-size: 24px !important;
+}
 
 
 nav{
