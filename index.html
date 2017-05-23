@@ -157,8 +157,13 @@
         <div id="product1" class="modal modal-fixed-footer">
             <div class="modal-content">
                 <h4 class="product-name">Change here with JS/AJAX</h4>
-                <div class="product-desc"></div>
-                <p>Change here with JS/AJAX</p>
+                <button class="btn indigo darken-1" onclick="getFlukeProductPrice()">แสดงราคา</button> 
+                <button class="btn indigo darken-1" onclick="getFlukeProductDesc()">แสดงรายละเอียด</button> 
+                <button class="btn indigo darken-1" onclick="getFlukeImgList()">แสดงรูปเพิ่มเติม</button>
+                <div style="margin-top:5px" class="row product-info"></div>
+                <img id="product1-img1" class="materialboxed left" style="width:50%"/>
+                <img id="product1-img2" class="materialboxed"  style="width:50%"/>
+                
             </div>
         </div>
 
@@ -215,6 +220,7 @@
                     });
                 });
                 $('.modal').modal();
+                $('.materialboxed').materialbox();
                     
             })
         </script>

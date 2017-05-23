@@ -3,7 +3,8 @@
         <name>LIXHULT</name>
         <desc>ฉีกทุกข้อจำกัด ด้วยรูปทรงและขนาดที่หลากหลาย เลือกได้ว่าจะแขวนติดผนังหรือประกอบเข้ากับขาโต๊ะเพื่อตั้งบนพื้น ที่สำคัญ อย่าลืมเลือกสีที่ใช่ แล้วไปสนุกกัน!</desc>
         <price>6,520</price>
-        <img1>aaa</img1>
+        <img1>src/img/product/lixhult-storage-combination-1.jpg</img1>
+        <img2>src/img/product/lixhult-storage-combination-2.jpg</img2>
     </item>
     <item>
         <name>นอร์แนส</name>

@@ -14,6 +14,10 @@ header > .parallax-container {
   font-size: 24px !important;
 }
 
+.material-placeholder{
+  display: inline !important;
+  width:30px;
+}
 #product3-img1,#product3-img2{
   width: 220px;
   height: 220px;
