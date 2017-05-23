@@ -18,8 +18,13 @@ header > .parallax-container {
   display: inline !important;
   width:30px;
 }
-
-
+#product3-img1,#product3-img2{
+  width: 220px;
+  height: 220px;
+}
+#product3{
+  height: 90%;
+}
 nav{
   background-color: #c0b673;
 }
