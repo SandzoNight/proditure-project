@@ -16,4 +16,59 @@
         <img1>src/img/product/nxrn-s-keaxi-thea_1.jpg</img1>
         <img2>src/img/product/nxrn-s-keaxi-thea_2.jpg</img2>
     </item>
+  
+    <item>
+      <name></name>
+      
+      <desc></desc>
+      
+      <price></price>
+      
+      <img></img>
+    
+    </item>
+
+    <item>
+      <name></name>
+      
+      <desc></desc>
+      
+      <price></price>
+      
+      <img></img>
+    
+    </item>
+
+    <item>
+      <name></name>
+      
+      <desc></desc>
+      
+      <price></price>
+      
+      <img></img>
+    
+    </item>
+
+    <item>
+      <name></name>
+      
+      <desc></desc>
+      
+      <price></price>
+      
+      <img></img>
+    
+    </item>
+
+    <item>
+      <name></name>
+      
+      <desc></desc>
+      
+      <price></price>
+      
+      <img></img>
+    
+    </item>
 </product>
