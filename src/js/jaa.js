@@ -16,6 +16,7 @@ function connectXMLbyJaa(){
             document.getElementById("product5-desc").innerHTML = myItem.getElementsByTagName("desc")[0].childNodes[0].nodeValue;
             document.getElementById("product5-img1").src = myItem.getElementsByTagName("img1")[0].childNodes[0].nodeValue;
             document.getElementById("product5-img2").src = myItem.getElementsByTagName("img2")[0].childNodes[0].nodeValue;
+            document.getElementById("product5-price").innerHTML = myItem.getElementsByTagName("price")[0].childNodes[0].nodeValue;
         }
     }
     xml.open("GET","src/products.xml?"+Math.random(),true);

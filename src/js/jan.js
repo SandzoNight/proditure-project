@@ -14,6 +14,7 @@ function connectXMLbyJan(){
             document.getElementById("product2-desc").innerHTML = myItem.getElementsByTagName("desc")[0].childNodes[0].nodeValue;
             document.getElementById("product2-img1").src = myItem.getElementsByTagName("img1")[0].childNodes[0].nodeValue;
             document.getElementById("product2-img2").src = myItem.getElementsByTagName("img2")[0].childNodes[0].nodeValue;
+            document.getElementById("product2-price").innerHTML = myItem.getElementsByTagName("price")[0].childNodes[0].nodeValue;
         }
     }
     xml.open("GET","src/products.xml?"+Math.random(),true);
