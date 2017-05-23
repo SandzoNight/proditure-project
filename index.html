@@ -68,22 +68,22 @@
                     <div class="col s12 m4">
                         <div class="card" data-target="product2" onclick="viewJanProduct()">
                             <div class="card-image waves-effect waves-block waves-light" >
-                                <img class="activator" src="src/img/product/lixhult-storage-combination.jpg">
+                                <img class="activator" src="src/img/product/nxrn-s-keaxi-thea_11.jpg">
                             </div>
                             <div class="card-content">
-                                <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">zoom_in</i></span>
-                                <p><a href="#">This is a link</a></p>
+                                <span class="card-title activator grey-text text-darken-4">นอร์แนส<i class="material-icons right">zoom_in</i></span>
+                                <p>เก้าอี้, ไม้เบิร์ช, อิซุนด้า เทา</p>
                             </div>
                         </div>
                     </div>
                     <div class="col s12 m4">
-                        <div class="card" data-target="product3">
+                        <div class="card" data-target="product3" onclick="viewPoomProduct()">
                             <div class="card-image waves-effect waves-block waves-light" >
-                                <img class="activator" src="src/img/product/lixhult-storage-combination.jpg">
+                                <img class="activator" src="src/img/product/hektar1.jpg">
                             </div>
                             <div class="card-content">
-                                <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">zoom_in</i></span>
-                                <p><a href="#">This is a link</a></p>
+                                <span class="card-title activator grey-text text-darken-4">HEKTAR<i class="material-icons right">zoom_in</i></span>
+                                <p>โคมแขวนเพดาน, ขาว</p>
                             </div>
                         </div>
                     </div>
@@ -139,13 +139,13 @@
                         </div>
                     </div>
                     <div class="col s12 m4">
-                        <div class="card" data-target="product6">
+                        <div class="card" data-target="product6"  onclick="viewGusProduct()">
                             <div class="card-image waves-effect waves-block waves-light" >
-                                <img class="activator" src="src/img/product/lixhult-storage-combination.jpg">
+                                <img class="activator" src="src/img/product/gus.jpg">
                             </div>
                             <div class="card-content">
-                                <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">zoom_in</i></span>
-                                <p><a href="#">This is a link</a></p>
+                                <span class="card-title activator grey-text text-darken-4">SVARTA<i class="material-icons right">zoom_in</i></span>
+                                <p><a href="#">Loft bed frame, silver color</a></p>
                             </div>
                         </div>
                     </div>
@@ -164,15 +164,17 @@
 
         <div id="product2" class="modal modal-fixed-footer">
             <div class="modal-content">
-                <h4>Change here with JS/AJAX</h4>
-                <p>Change here with JS/AJAX</p>
+                <h4 id="product2-name">Change here with JS/AJAX</h4>
+                <div style="text-align:center"><img id="product2-img1"><img id="product2-img2"></div>
+                    <p id="product2-desc">Change here with JS/AJAX</p>
             </div>
         </div>
 
         <div id="product3" class="modal modal-fixed-footer">
             <div class="modal-content">
-                <h4>Change here with JS/AJAX</h4>
-                <p>Change here with JS/AJAX</p>
+                <h4 id="product3-name">Change here with JS/AJAX</h4>
+                <div style="text-align:center"><img id="product3-img1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img id="product3-img2"></div>
+                <p id="product3-desc">Change here with JS/AJAX</p>
             </div>
         </div>
 
@@ -192,8 +194,9 @@
 
         <div id="product6" class="modal modal-fixed-footer">
             <div class="modal-content">
-                <h4></h4>
-                <p></p>
+                <h4 id="product6-name"></h4>
+                <div style="text-align:center"><img id="product6-img1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img id="product6-img2"></div>
+                <p id="product6-desc"></p>
             </div>
         </div>
 
@@ -217,5 +220,7 @@
         <script src="src/js/fluke.js"></script>
         <script src="src/js/jan.js"></script>
         <script src="src/js/jam.js"></script>
+        <script src="src/js/poom.js"></script>
+        <script src="src/js/gus.js"></script>
     </body>
 </html>
