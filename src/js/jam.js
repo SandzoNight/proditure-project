@@ -14,6 +14,7 @@ function viewlist(){
             console.log(myItem);
             document.getElementById("product4-name").innerHTML = myItem.getElementsByTagName("name")[0].childNodes[0].nodeValue;
             document.getElementById("product4-desc").innerHTML = myItem.getElementsByTagName("desc")[0].childNodes[0].nodeValue;
+            document.getElementById("product4-price").innerHTML = myItem.getElementsByTagName("price")[0].childNodes[0].nodeValue;            
             document.getElementById("product4-img1").src = myItem.getElementsByTagName("img1")[0].childNodes[0].nodeValue;
             document.getElementById("product4-img2").src = myItem.getElementsByTagName("img2")[0].childNodes[0].nodeValue;
         }
