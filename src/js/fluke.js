@@ -1,6 +1,5 @@
 var mydiv = document.getElementById("product1");
 function viewFlukeProduct(){
-    // mydiv.getElementsByClassName("modal-content")[0].innerHTML = "";
     mydiv.getElementsByClassName("product-name")[0].innerHTML = "LIXHULT<hr>";
     flukeGetImage();
 }
