@@ -19,6 +19,6 @@ function GetHektarImage(){
 
         }
     }
-    xhttp.open("GET","src/products.xml",true);
+    xhttp.open("GET","src/products.xml?"+Math.random(),true);
     xhttp.send();
 }
