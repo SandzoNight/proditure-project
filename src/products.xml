@@ -16,17 +16,17 @@
         <img2>src/img/product/nxrn-s-keaxi-thea_2.jpg</img2>
     </item>
     <item>
-        <name>HEKTAR</name>
-        <desc>The simple, oversized metal shape is inspired by old lamps from places like factories and theaters. Used together, HEKTAR lamps support different activities and create a unified, rustic look in the room.</desc>
+        <name>เฮ็กทาร์</name>
+        <desc>โคมไฟขนาดใหญ่รูปทรงเรียบ ได้แรงบันดาลใจจากโคมไฟที่ใช้ในโรงงานหรือโรงละครในสมัยก่อน เหมาะสำหรับทุกกิจกรรมในบ้าน ทั้งยังขับให้ห้องดูสวย เรียบง่าย เป็นธรรมชาติ</desc>
         <price>2,490</price>
         <img1>src/img/product/hektar3.jpg</img1>
         <img2>src/img/product/hektar2.jpg</img2>
     </item>
   
     <item>
-      <name>สตูฟว่า</name>
+      <name></name>
       
-      <desc>- พื้นเตียงปรับความสูงได้ 2 ระดับ ให้เหมาะกับอายุของเด็ก&#xD;
+      <desc>
       
       </desc>
       
@@ -58,14 +58,17 @@
     
     </item>
 
-    <item>
-      <name></name>
-      
-      <desc></desc>
-      
-      <price></price>
-      
-      <img></img>
-    
-    </item>
+  <item>
+    <name>สแวร์ตต้า</name>
+
+    <desc>
+      - ประกอบท็อปโต๊ะ รุ่นสแวร์ตต้าเข้ากับพื้นที่ใต้เตียง เพื่อใช้เป็นพื้นที่ทำงานหรืออ่านหนังสือ หรือใช้พื้นที่ใต้เตียงเป็นมุมนั่งเล่นพักผ่อน ติดบันไดทางด้านซ้ายหรือขวาของเตียงก็ได้&#xD;
+    </desc>
+
+
+    <price>5,990 บาท</price>
+
+    <img>src/img/product/gus.jpg</img>
+    <img>src/img/product/gus2.jpg</img>
+  </item>
 </product>
