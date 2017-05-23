@@ -28,3 +28,6 @@ header > .parallax-container {
 nav{
   background-color: #c0b673;
 }
+footer{
+  background-color: #c0b673 !important;
+}
