@@ -16,6 +16,13 @@
         <img1>src/img/product/nxrn-s-keaxi-thea_1.jpg</img1>
         <img2>src/img/product/nxrn-s-keaxi-thea_2.jpg</img2>
     </item>
+    <item>
+        <name>เฮ็กทาร์</name>
+        <desc>โคมไฟขนาดใหญ่รูปทรงเรียบ ได้แรงบันดาลใจจากโคมไฟที่ใช้ในโรงงานหรือโรงละครในสมัยก่อน เหมาะสำหรับทุกกิจกรรมในบ้าน ทั้งยังขับให้ห้องดูสวย เรียบง่าย เป็นธรรมชาติ</desc>
+        <price>2,490</price>
+        <img1>src/img/product/hektar1.jpg</img1>
+        <img2>src/img/product/hektar2.jpg</img2>
+    </item>
   
     <item>
       <name>สตูฟว่า</name>
@@ -23,17 +30,6 @@
       <desc>- พื้นเตียงปรับความสูงได้ 2 ระดับ ให้เหมาะกับอายุของเด็ก&#xD;
       
       </desc>
-      
-      <price></price>
-      
-      <img></img>
-    
-    </item>
-
-    <item>
-      <name></name>
-      
-      <desc></desc>
       
       <price></price>
       
