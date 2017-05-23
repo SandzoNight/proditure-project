@@ -10,7 +10,7 @@ function viewlist(){
         if(xhttp.readyState==4 && xhttp.status==200){
         	console.log("Jam 3");
         	console.log(this.responseXML);
-            var myItem = this.responseXML.getElementsByTagName("item")[1];
+            var myItem = this.responseXML.getElementsByTagName("item")[4];
             console.log(myItem);
             document.getElementById("product4-name").innerHTML = myItem.getElementsByTagName("name")[0].childNodes[0].nodeValue;
             document.getElementById("product4-desc").innerHTML = myItem.getElementsByTagName("desc")[0].childNodes[0].nodeValue;
