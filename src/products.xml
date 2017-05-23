@@ -54,13 +54,14 @@
 
 
     <item>
-      <name></name>
+      <name>อิเกีย พีเอส 2017</name>
       
-      <desc></desc>
+      <desc>เก้าอี้พักผ่อนเข้ามุม+หมอนอิง18ใบ, ขาว, น้ำเงินเข้ม เลือกประกอบที่วางแขนไว้ทางฝั่งซ้ายหรือขวาก็ได้ เมื่อประกอบเก้าอี้พักผ่อนแบบเข้ามุมองตัว เข้าไว้ด้วยกัน ก็ได้โซฟาสบายๆ ขนาดสองที่นั่ง</desc>
       
-      <price></price>
+      <price>6,672</price>
       
-      <img></img>
+      <img1>src/img/product/xikeiy-phi-xes-keaxi-1.jpg</img1>
+      <img2>src/img/product/xikeiy-phi-xes-keaxi-2.jpg</img2>
     
     </item>
 
