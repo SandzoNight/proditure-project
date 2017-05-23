@@ -25,9 +25,9 @@
     </item>
   
     <item>
-      <name>สตูฟว่า</name>
+      <name></name>
       
-      <desc>- พื้นเตียงปรับความสูงได้ 2 ระดับ ให้เหมาะกับอายุของเด็ก&#xD;
+      <desc>
       
       </desc>
       
@@ -59,14 +59,17 @@
     
     </item>
 
-    <item>
-      <name></name>
-      
-      <desc></desc>
-      
-      <price></price>
-      
-      <img></img>
-    
-    </item>
+  <item>
+    <name>สแวร์ตต้า</name>
+
+    <desc>
+      - ประกอบท็อปโต๊ะ รุ่นสแวร์ตต้าเข้ากับพื้นที่ใต้เตียง เพื่อใช้เป็นพื้นที่ทำงานหรืออ่านหนังสือ หรือใช้พื้นที่ใต้เตียงเป็นมุมนั่งเล่นพักผ่อน ติดบันไดทางด้านซ้ายหรือขวาของเตียงก็ได้&#xD;
+    </desc>
+
+
+    <price>5,990 บาท</price>
+
+    <img>src/img/product/gus.jpg</img>
+    <img>src/img/product/gus2.jpg</img>
+  </item>
 </product>
