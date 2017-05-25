@@ -10,7 +10,7 @@ function connectXMLbyJaa(){
     console.log("Jaa 2");
     xml.onreadystatechange = function(){
         if(this.readyState==4 && this.status==200){
-            var myItem = this.responseXML.getElementsByTagName("item")[5];
+            var myItem = this.responseXML.getElementsByTagName("item")[4];
             console.log(myItem);
             document.getElementById("product5-name").innerHTML = myItem.getElementsByTagName("name")[0].childNodes[0].nodeValue;
             document.getElementById("product5-desc").innerHTML = myItem.getElementsByTagName("desc")[0].childNodes[0].nodeValue;
